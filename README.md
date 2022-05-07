@@ -1,1 +1,1 @@
-# PHPBaseProject
+# SymfonyBaseProject

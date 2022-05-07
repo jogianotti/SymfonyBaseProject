@@ -9,7 +9,7 @@ COPY php.ini $PHP_INI_DIR/php.ini
 
 RUN apt-get update \
 && apt-get upgrade --yes \
-&& apt-get install --yes zip unzip libzip-dev git libicu-dev libcairo2-dev libjpeg-dev libgif-dev
+&& apt-get install --yes zip unzip libzip-dev git libicu-dev
 
 RUN pecl install xdebug \
     && docker-php-ext-enable xdebug

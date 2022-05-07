@@ -1,4 +1,15 @@
-vendor/
+###> symfony/framework-bundle ###
+/.env.local
+/.env.local.php
+/.env.*.local
+/config/secrets/prod/prod.decrypt.private.php
+/public/bundles/
+/var/
+/vendor/
+###< symfony/framework-bundle ###
+
+###> Docker ###
 docker-compose.override.yaml
 docker/mysql/data/*
 !docker/mysql/data/.gitignore
+###< Docker ###
