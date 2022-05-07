@@ -1,0 +1,4 @@
+vendor/
+docker-compose.override.yaml
+docker/mysql/data/*
+!docker/mysql/data/.gitignore

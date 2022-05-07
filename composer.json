@@ -1,0 +1,20 @@
+{
+    "name": "jogianotti/php-base-project",
+    "description": "PHP base project for development",
+    "version": "1.0.0",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Jorge Oscar Gianotti",
+            "email": "jorge.oscar.gianotti@gmail.com"
+        }
+    ],
+    "require": {
+
+    },
+    "config": {
+        "platform": {
+            "php": "8.0"
+        }
+    }
+}
