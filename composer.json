@@ -24,7 +24,14 @@
         "symfony/yaml": "6.0.*"
     },
     "require-dev": {
-        "roave/security-advisories": "dev-latest"
+        "fakerphp/faker": "^1.19",
+        "mockery/mockery": "^1.5",
+        "phpunit/phpunit": "^9.5",
+        "roave/security-advisories": "dev-latest",
+        "symfony/browser-kit": "6.0.*",
+        "symfony/css-selector": "6.0.*",
+        "symfony/maker-bundle": "^1.41",
+        "symfony/phpunit-bridge": "^6.0"
     },
     "config": {
         "allow-plugins": {

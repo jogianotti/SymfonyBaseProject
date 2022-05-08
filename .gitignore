@@ -13,3 +13,8 @@ docker-compose.override.yaml
 docker/mysql/data/*
 !docker/mysql/data/.gitignore
 ###< Docker ###
+
+###> symfony/phpunit-bridge ###
+.phpunit.result.cache
+/phpunit.xml
+###< symfony/phpunit-bridge ###
